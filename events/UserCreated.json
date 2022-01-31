@@ -1,0 +1,19 @@
+{
+  "Detail": {
+    "metadata": {
+        "service": "service-user",
+        "domain": "USER"
+    },
+    "data": {
+        "id": 1,
+        "firstName": "David",
+        "lastName": "Boyne",
+        "email": "test@test.com",
+        "createdAt": "2022-01-01T07:09:01+00:00"
+    }
+  },
+  "DetailType": "UserCreated",
+  "EventBusName": "boyne-test-bus",
+  "Resources": ["user-1"],
+  "Source": "myapp.users"
+}

@@ -1,0 +1,21 @@
+{
+  "Detail": {
+    "metadata": {
+        "service": "service-order",
+        "domain": "ORDER"
+    },
+    "data": {
+        "id": 1,
+        "quantity": 2,
+        "amount": "200",
+        "createdAt": "2022-01-01T07:09:01+00:00",
+        "user": {
+            "id": 1
+        }
+    }
+  },
+  "DetailType": "OrderCreated",
+  "EventBusName": "boyne-test-bus",
+  "Resources": ["order-1"],
+  "Source": "myapp.orders"
+}

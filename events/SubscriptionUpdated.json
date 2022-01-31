@@ -1,0 +1,22 @@
+{
+  "Detail": {
+    "metadata": {
+      "service": "service-user",
+      "domain": "USER"
+    },
+    "data": {
+      "id": 1,
+      "reason": "no-need",
+      "paymentType": "direct-debit",
+      "previousPaymentType": "card",
+      "stripeId": 1,
+      "user": {
+        "id": 1
+      }
+    }
+  },
+  "DetailType": "SubscriptionUpdated",
+  "EventBusName": "boyne-test-bus",
+  "Resources": ["user-1"],
+  "Source": "myapp.subscriptions"
+}

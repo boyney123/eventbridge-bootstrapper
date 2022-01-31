@@ -1,0 +1,21 @@
+{
+  "Detail": {
+    "metadata": {
+      "service": "service-user",
+      "domain": "USER"
+    },
+    "data": {
+      "id": 1,
+      "paymentType": "card",
+      "reason": "no-need",
+      "stripeId": 1,
+      "user": {
+        "id": 1
+      }
+    }
+  },
+  "DetailType": "SubscriptionCancelled",
+  "EventBusName": "boyne-test-bus",
+  "Resources": ["user-1"],
+  "Source": "myapp.subscriptions"
+}
